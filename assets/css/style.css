@@ -1,3 +1,40 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
+    color:#333333;
+    background-color:#F6F6F6;
+}
+p {
+    color:#666666;
+    text-align: left;
+}
+h1, h2, h4, h6 {
+    text-align: left;
+}
+h3 {
+    text-align: center;
+}
+h5 {
+    text-align: right;
+}
+section:first-of-type {
+    background:#F6F6F6;
+    background-image: url(assets/img/img-1.jpg);
+    background-size: cover;
+    background-repeat: none;
+}
+section:last-of-type {
+    background:#D63C37;
+    background-color:#D63C37;
+}
+.redColor {
+    color:#D63C37;
+}
+.whiteColor {
+    color:#FAF3F3;
+}
+.textUnderline {
+    text-decoration: underline;
+}
+.textBold {
+    font-weight: bold;
 }
