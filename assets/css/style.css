@@ -3,7 +3,7 @@ html, body {
     /*position: relative;*/
     font-family: 'Open Sans', sans-serif;
     color:#333333;
-    background-color:#F6F6F6;
+    background-color:#FCFCFC;
     text-align: left;
     /*z-index: 1;
     margin:0;
@@ -78,7 +78,7 @@ h6 {
     line-height: 36px;
 }
 /* main */
-#fond {
+/*#fond {
     position: absolute;
     display: block;
     height: 100%;
@@ -88,25 +88,23 @@ h6 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 2;
-}
+}*/
 #home {
     text-align: center;
     float: none;
     clear: both;
     height: 100vh;
-    background-color: gray;
 }
 #intro {
     float: none;
     clear: both;
     height: 100vh;
-    background-color: blue;
 }
 #strengh {
     float: none;
     clear: both;
     height: 100vh;
-    background-color: violet;
+    background-color: #D63C37;
 }
 .floatLeft {
     position: relative;
@@ -128,21 +126,35 @@ h6 {
     width: 100%;
 }
 .pageCenter {
-    margin-top: 50%;
-    transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#homeTitle {
+    margin: 0 0 20px 0;
 }
 #introTitle {
-
+    margin: 0 0 20px 0;
 }
 #introList {
-    margin: 0 0 20px 0;
+    position: relative;
+    display: block;
 }
 #introList > li {
     margin: 0 0 18px 0;
+    list-style: circle;
+}
+#introList > li > * {
+    margin: 0;
+}
+#introList > li:first-of-type {
+    list-style: none;
+}
+#strenghTitle {
+    text-align: right;
 }
 /*#introImg {
     position: relative;
@@ -177,7 +189,7 @@ section:last-of-type p {
 section:last-of-type h5 {
     color:#FAF3F3;
     text-align: right;
-}
+}*/
 .redColor {
     color:#D63C37;
 }
@@ -186,4 +198,7 @@ section:last-of-type h5 {
 }
 .textBold {
     font-weight: bold;
-}*/
+}
+.whiteColor {
+    color:#FAF3F3;
+}
