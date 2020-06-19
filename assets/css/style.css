@@ -94,6 +94,10 @@ h6 {
     float: none;
     clear: both;
     height: 100vh;
+    background-image: url(../img/img-1.jpg);
+    background-color:#FCFCFC;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 #intro {
     float: none;
@@ -119,11 +123,12 @@ h6 {
     float: right;
     text-align: right;
 }
-.floatLeft img {
+#liberty {
     position: absolute;
     bottom: 0;
-    left: 0;
-    width: 100%;
+    width: 86%;
+    height: 66%;
+    right: 0;
 }
 .pageCenter {
     margin-top: 50vh;
@@ -133,11 +138,21 @@ h6 {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
+.containerCenter {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
 #homeTitle {
-    margin: 0 0 20px 0;
+    margin: 0 0 18px 0;
 }
 #introTitle {
-    margin: 0 0 20px 0;
+    margin: 0 0 25px 0;
 }
 #introList {
     position: relative;
@@ -155,6 +170,21 @@ h6 {
 }
 #strenghTitle {
     text-align: right;
+    margin-bottom: 40px;
+}
+#strenghList {
+    list-style: none;
+    text-align: right;
+}
+#strenghList > li {
+    float: left;
+    margin-bottom: 40px;
+}
+#strenghList > li > h5 {
+    color:#FAF3F3;
+}
+#strenghList > li > p {
+    color:#333333;
 }
 /*#introImg {
     position: relative;
