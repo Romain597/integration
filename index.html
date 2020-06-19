@@ -9,20 +9,19 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header style="display:none;">
-        <nav>
-            <div>menu</div>
-            <ul>
-                <li>twitter</li>
-                <li>facebook</li>
-                <li>google+</li>
-                <li>instagram</li>
-                <li>dribbble</li>
-                <li>loupe</li>
+    <header id="menuMedia">
+        <nav class="navbar">
+            <div class="nav-menu"><img alt="Menu" src="assets/img/menu.png"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="navbar-brand link-img" href="www.google.fr"><img alt="Twitter" src="assets/img/twitter.png"></a></li>
+                <li class="nav-item"><a class="navbar-brand link-img" href="www.google.fr"><img alt="Facebook" src="assets/img/facebook.png"></a></li>
+                <li class="nav-item"><a class="navbar-brand link-img" href="www.google.fr"><img alt="Google plus" src="assets/img/google+.png"></a></li>
+                <li class="nav-item"><a class="navbar-brand link-img" href="www.google.fr"><img alt="Instagram" src="assets/img/instagram.png"></a></li>
+                <li class="nav-item"><a class="navbar-brand link-img" href="www.google.fr"><img alt="Dribbble" src="assets/img/dribbble.png"></a></li>
+                <li class="nav-item"><a class="navbar-brand link-img" href="www.google.fr"><img alt="Loupe" src="assets/img/loupe.png"></a></li>
             </ul>
         </nav>
     </header>
-    <!--<div id="fond"></div>-->
     <main>
         <section id="home" class="container-fluid">
             <div class="container-sm">
@@ -38,7 +37,7 @@
             <div class="container-sm">
                 <div clas="row">
                     <div class="col-sm-6 floatLeft">
-                        <img id="liberty" src="assets/img/img.jpg">
+                        <img id="liberty" alt="" src="assets/img/img.jpg">
                     </div>
                     <div class="col-sm-6 floatLeft">
                         <article class="pageCenter">
@@ -62,21 +61,6 @@
                             </ul>
                         </article>
                     </div>
-                    <!--<div class="col-sm-6">
-                        <p>Proin rhoncus ligula nec dictum volutpat. Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque neque porttitor ac.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h6 class="redColor">Nunc et mauris mi. Suspendisse potenti.</h6>
-                        <p>Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque neque porttitor ac.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h6 class="redColor">Curabitur finibus congue metus, eu facilisis nisl fringilla viverra.</h6>
-                        <p>Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque neque porttitor ac.</p>
-                    </div>
-                    <div class="col-sm-6">
-                        <h6 class="redColor">Aenean pellentesque facilisis est quis dignissim.</h6>
-                        <p>Curabitur eu magna vel massa laoreet condimentum. Cras vulputate pellentesque velit, non scelerisque neque porttitor ac.</p>
-                    </div>-->
                 </div>
             </div>
         </section>
@@ -112,35 +96,24 @@
                             </li>
                         </ul>
                     </div>
-                    <!--<div class="col-sm-5 floatRight">
-
-                    </div>
-                    <div class="col-sm-5 floatRight">
-
-                    </div>-->
-                    <!--<div class="col-sm-5 floatRight">
-                        <h5 class="whiteColor"><strong class="textBold">Blazing</strong> performance</h5>
-                        <p>Sed hendrerit, ligula vitae suscipit dignissim, turpis diam dictum diam, sed facilisis ante orci et velit. Proin eget odio accumsan, varius nisi a, dignissim odio. Donec molestie gravida lacinia. Aenean sollicitudin convallis augue et tincidunt.</p>
-                    </div>
-                    <div class="col-sm-5 floatRight">
-                        <h5 class="whiteColor">Lightning <strong class="textBold">fast</strong></h5>
-                        <p>Mauris ac quam in eros semper faucibus nec a massa. Donec semper congue efficitur. Duis consequat porttitor est at suscipit. Nam quis mollis ligula. In hac habitasse platea dictumst. Proin varius nulla lorem.</p>
-                    </div>
-                    <div class="col-sm-5 floatRight">
-                        <h5 class="whiteColor"><strong class="textBold">Awesome</strong> customization</h5>
-                        <p>Nunc semper tempus augue ut consectetur. Quisque ipsum nisl, consectetur vel tempus sed, accumsan quis orci. Aenean ligula orci, ultricies sit amet ante a, tincidunt varius leo. Nulla luctus elementum velit. Integer venenatis diam varius, fermentum enim lobortis, convallis nulla.</p>
-                    </div>
-                    <div class="col-sm-5 floatRight">
-                        <h5 class="whiteColor">Clean & <strong class="textBold">standardized</strong> code</h5>
-                        <p>Nulla quis dui venenatis, egestas sapien vitae, lobortis massa. Cras eget nisl eget magna aliquet dignissim. Vivamus at accumsan leo.</p>
-                    </div>
-                    <div class="col-sm-5 floatRight">
-                        <h5 class="whiteColor">Use <strong class="textBold">anywhere</strong></h5>
-                        <p>In egestas enim eu erat ultrices tempor. Fusce sed risus efficitur, interdum risus nec, varius dui. Nullam ullamcorper tortor nibh. Nam vel felis et arcu auctor posuere sit amet in nisi.</p>
-                    </div>-->
                 </div>
             </div>
         </section>
     </main>
+    <footer id="menuContainer">
+        <div class="row">
+            <div class="col-sm-6">
+                <nav class="navbar">
+                    <a class="nav-link" href="#">Top</a>
+                    <a class="nav-link" href="#">Featured</a>
+                    <a class="nav-link" href="#">Section</a>
+                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">Archive</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
