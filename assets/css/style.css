@@ -1,32 +1,17 @@
 /* reset */
 html, body {
-    /*position: relative;*/
     font-family: 'Open Sans', sans-serif;
     color:#333333;
     background-color:#FCFCFC;
     text-align: left;
-    /*z-index: 1;
-    margin:0;
-    padding:0;
-    border:0;
-    box-sizing: border-box;
-    height: auto;
-    width: auto;*/
+    cursor: default;
 }
 /* generic */
 header {
-    /*position: relative;
-    display: block;
-    margin:0;
-    padding:0;
-    border:0;*/
+
 }
 footer {
-    /*position: relative;
-    display: block;
-    margin:0;
-    padding:0;
-    border:0;*/
+
 }
 main {
     position: relative;
@@ -39,25 +24,21 @@ main {
     z-index: 1;
 }
 nav {
-    /*position: absolute;
-    display: block;
-    margin:0;
-    padding:0;
-    border:0;*/
     z-index: 1000;
 }
 section {
     position: relative;
     display: block;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    overflow: hidden;
     z-index: 100;
 }
 p {
     position: relative;
     display: block;
     color:#666666;
-    /*text-align: left;*/
+
     font-size: 18px;
     line-height: 36px;
 }
@@ -82,22 +63,21 @@ h6 {
     text-align: center;
     float: none;
     clear: both;
-    height: 100vh;
     background-image: url(../img/img-1.jpg);
     background-color:#FCFCFC;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
+    background-position: bottom;
 }
 #intro {
     float: none;
     clear: both;
-    height: 100vh;
     background-color: #F6F6F6;
 }
 #strengh {
     float: none;
     clear: both;
-    height: 100vh;
     background-color: #D63C37;
 }
 .floatLeft {
@@ -105,7 +85,7 @@ h6 {
     display: block;
     float: left;
     text-align: left;
-    height: 100vh;
+    min-height: 100vh;
 }
 .floatRight {
     position: relative;
@@ -116,8 +96,8 @@ h6 {
 #liberty {
     position: absolute;
     bottom: 0;
-    width: 86%;
-    height: 66%;
+    width: 100%;
+    height: auto;
     right: 0;
 }
 .pageCenter {
@@ -184,9 +164,23 @@ h6 {
 #strenghList > li {
     float: left;
     margin-bottom: 40px;
-    margin-right: 89px;
 }
-#strenghList > li:before {
+#strenghList > li > div {
+    float: left;
+    /*margin-bottom: 40px;
+    margin-right: 89px;*/
+}
+#strenghList > li > div > img {
+    margin-bottom: 10px;
+    /*width: 100%;*/
+}
+#strenghList > li > div > h5 {
+    color:#FAF3F3;
+}
+#strenghList > li > div > p {
+    color:#333333;
+}
+/*#strenghList > li:before {
     float: right;
     position: relative;
     margin-right: -96px;
@@ -206,13 +200,7 @@ h6 {
 }
 #strenghList > li:nth-child(5):before  {
     content: url(../img/nuage.png);
-}
-#strenghList > li > h5 {
-    color:#FAF3F3;
-}
-#strenghList > li > p {
-    color:#333333;
-}
+}*/
 .redColor {
     color:#D63C37;
 }
@@ -229,7 +217,7 @@ h6 {
 #menuMedia {
     position: fixed;
     display: block;
-    right: 2%;
+    right: 22px;
     margin: 0;
     padding: 0;
     border: 0;
@@ -283,27 +271,17 @@ h6 {
     margin: 0;
     border: 0;
     line-height: 100%;
+}
+.link-img > img {
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-}
-.link-img:hover {
-    box-shadow: inset 0px 0px 2px 0px lightgray;
-    -webkit-box-shadow:inset 0px 0px 2px 0px lightgray;
-	-moz-box-shadow:inset 0px 0px 2px 0px lightgray;
-}
-.link-img > img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    /*border: 1px solid transparent;*/
+    border: 1px solid transparent;
 }
 .link-img > img:hover {
-    /*border: 1px solid gray;*/
+    border: 1px solid #CCC;
 }
 #menuContainer {
     position: fixed;
