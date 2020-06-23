@@ -7,12 +7,6 @@ html, body {
     cursor: default;
 }
 /* generic */
-header {
-
-}
-footer {
-
-}
 main {
     position: relative;
     display: block;
@@ -79,14 +73,14 @@ h6 {
     clear: both;
     background-color: #D63C37;
 }
-.floatLeft {
+.float-left {
     position: relative;
     display: block;
     float: left;
     text-align: left;
     min-height: 100vh;
 }
-.floatRight {
+.float-right {
     position: relative;
     display: block;
     float: right;
@@ -99,7 +93,7 @@ h6 {
     height: auto;
     right: 0;
 }
-.pageCenter {
+.page-center {
     margin-top: 50vh;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -107,7 +101,7 @@ h6 {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
-.containerCenter {
+.container-center {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -117,79 +111,79 @@ h6 {
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
 }
-#homeTitle {
+#home-title {
     margin: 0 0 18px 0;
 }
-#introTitle {
+#intro-title {
     margin: 0 0 25px 0;
 }
-#introList {
+#intro-list {
     position: relative;
     display: block;
     list-style: none;
 }
-#introList > li {
+#intro-list > li {
     margin: 0 0 18px 65px;
 }
-#introList > li:before {
+#intro-list > li:before {
     float: left;
     position: relative;
     margin-left: -65px;
     margin-top: 8px;
 }
-#introList > li:nth-child(2):before {
+#intro-list > li:nth-child(2):before {
     content: url(../img/etoile.png);
 }
-#introList > li:nth-child(3):before {
+#intro-list > li:nth-child(3):before {
     content: url(../img/coeur.png);
 }
-#introList > li:nth-child(4):before {
+#intro-list > li:nth-child(4):before {
     content: url(../img/lune.png);
 }
-#introList > li > * {
+#intro-list > li > * {
     margin: 0;
 }
-#introList > li:first-of-type {
+#intro-list > li:first-of-type {
     list-style: none;
 }
-#strenghTitle {
+#strengh-title {
     text-align: right;
     margin-bottom: 40px;
 }
-#strenghList {
+#strengh-list {
     list-style: none;
     text-align: right;
 }
-#strenghList > li {
+#strengh-list > li {
     float: left;
     margin-bottom: 40px;
 }
-#strenghList > li > div {
+#strengh-list > li > div {
     float: left;
 }
-#strenghList > li > div > img {
+#strengh-list > li > div > img {
     margin-bottom: 10px;
 }
-#strenghList > li > div > h5 {
+#strengh-list > li > div > h5 {
     color:#FAF3F3;
 }
-#strenghList > li > div > p {
+#strengh-list > li > div > p {
     color:#333333;
 }
-.redColor {
+.red-color {
     color:#D63C37;
 }
-.textUnderline {
+.text-underline {
     text-decoration: underline;
 }
-.textBold {
+.text-bold {
     font-weight: bold;
 }
-.whiteColor {
+.white-color {
     color:#FAF3F3;
 }
 /* menu */
-#menuMedia {
+#menu-media {
     position: fixed;
     display: block;
     right: 22px;
@@ -198,7 +192,7 @@ h6 {
     border: 0;
     z-index: 1000;
 }
-#menuMedia > nav {
+#menu-media > nav {
     position: relative;
     display: block;
     margin: 0;
@@ -206,7 +200,7 @@ h6 {
     border: 0;
     width: 2vw;
 }
-#menuMedia > nav > ul {
+#menu-media > nav > ul {
     position: relative;
     display: block;
     list-style: none;
@@ -214,7 +208,7 @@ h6 {
     padding: 0;
     border: 0;
 }
-#menuMedia > nav > ul > li {
+#menu-media > nav > ul > li {
     margin: 18px 0;
 }
 .nav-menu {
@@ -254,7 +248,7 @@ h6 {
 .link-img > img:hover {
     border: 1px solid #CCC;
 }
-#menuContainer {
+#menu-container {
     position: fixed;
     display: block;
     padding: 0;
@@ -266,15 +260,15 @@ h6 {
     background-color: #FFF;
     bottom: 0;
 }
-#menuContainer > div > div {
+#menu-container > div > div {
     margin: auto;
 }
-#menuContainer > div > div > nav {
+#menu-container > div > div > nav {
     margin-top: 4%;
 }
-#menuContainer > div > div > nav > a {
+#menu-container > div > div > nav > a {
     color: #333;
 }
-#menuContainer > div > div > nav > a:hover {
+#menu-container > div > div > nav > a:hover {
     color: #666;
 }
